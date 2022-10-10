@@ -33,8 +33,8 @@ dart_vm_binary(
 | Name  | Description | Type | Mandatory | Default |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | <a id="dart_vm_binary-name"></a>name |  A unique name for this target.   | <a href="https://bazel.build/concepts/labels#target-names">Name</a> | required |  |
-| <a id="dart_vm_binary-deps"></a>deps |  Additional local files that will be imported.   | <a href="https://bazel.build/concepts/labels">List of labels</a> | optional | [] |
-| <a id="dart_vm_binary-enable_asserts"></a>enable_asserts |  Enable assert statements.   | Boolean | optional | False |
+| <a id="dart_vm_binary-deps"></a>deps |  Additional local files that will be imported.   | <a href="https://bazel.build/concepts/labels">List of labels</a> | optional | <code>[]</code> |
+| <a id="dart_vm_binary-enable_asserts"></a>enable_asserts |  Enable assert statements.   | Boolean | optional | <code>False</code> |
 | <a id="dart_vm_binary-main"></a>main |  Main entrypoint script that is given to <code>dart run</code> command.   | <a href="https://bazel.build/concepts/labels">Label</a> | required |  |
 
 
