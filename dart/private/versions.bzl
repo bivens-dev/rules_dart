@@ -13,4 +13,12 @@ TOOL_VERSIONS = {
         "linux-arm64": "sha384-jOcTOQZZGOc5y8XJBOobmDzRIbuHA2eeKXulS4L/2gWizqJeUsJFGbKrgtfWRf2m",
         "windows-x64": "sha384-6WBdgtQVvZidSZ14eL9hASxPDHGSbV6kyGP50znJS7lS1nf8GlrIHXd4esGOK9WL",
     },
+    "2.18.3": {
+        "macos-x64": "sha384-b0TSWt3wzuHdPmG4TDD+DqUHUn0NDShtY1lR9hZKm/5S5bsH2gFxGEHAJ1WwCQAY",
+        "macos-arm64": "sha384-pXYg/3+o19isHaz/AvAToAQ0S97nkzDespgf5lyvr90c62Aa4MTNH/Ku1rCwB7Bs",
+        "linux-x64": "sha384-d32VgJX8ECtz0b0+dJ/+g+FcmXebjGi8D2TIiYGTfgix9owI035pqiwlW+LzYFrb",
+        "linux-arm": "sha384-JK8qzgXifMtzUunFTT5YhzosSzzEWN/kROFgpdKOhzr0eJ4uSAptEynlmFW+KflU",
+        "linux-arm64": "sha384-1YCWHavWG8cyVA3MYphp0NC4Yjns6XEWp6dR+MsorD+Wot/7P3QaHJbDY4YWHZGk",
+        "windows-x64": "sha384-Gf45DyAWQvY8IJCrXVY8cM9pmNqbM9ccAFdDJiV7hsneBIySNH1fnIT50XM2dj3N",
+    },
 }
