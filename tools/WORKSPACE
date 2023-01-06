@@ -19,5 +19,5 @@ rules_dart_dependencies()
 # Note: You must use a toolchain that already exists in dart/private/versions.bzl
 dart_register_toolchains(
     name = "dart",
-    dart_version = "2.18.3",
+    dart_version = "2.18.6",
 )

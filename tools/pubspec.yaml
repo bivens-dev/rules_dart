@@ -1,0 +1,7 @@
+name: generate_toolchain_values
+description: A tool to generate the relevant hash values for a given Dark release
+version: 0.0.1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+

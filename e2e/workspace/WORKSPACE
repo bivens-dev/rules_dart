@@ -20,5 +20,5 @@ rules_dart_dependencies()
 
 dart_register_toolchains(
     name = "dart",
-    dart_version = "2.18.2",
+    dart_version = "2.18.6",
 )
