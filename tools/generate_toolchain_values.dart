@@ -3,7 +3,7 @@ import 'dart:io';
 
 // Edit the following values as needed
 const releaseChannel = 'stable';
-const dartVersion = '2.18.4';
+const dartVersion = '2.18.6';
 const supportedPlatforms = [
   'linux-x64',
   'linux-ia32',
