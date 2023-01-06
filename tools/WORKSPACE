@@ -1,0 +1,23 @@
+# Override http_archive for local testing
+local_repository(
+    name = "dev_bivens_rules_dart",
+    path = "..",
+)
+
+######################
+# rules_dart setup #
+######################
+# Fetches the rules_dart dependencies.
+# If you want to have a different version of some dependency,
+# you should fetch it *before* calling this.
+# Alternatively, you can skip calling this function, so long as you've
+# already fetched all the dependencies.
+load("@dev_bivens_rules_dart//dart:repositories.bzl", "dart_register_toolchains", "rules_dart_dependencies")
+
+rules_dart_dependencies()
+
+# Note: You must use a toolchain that already exists in dart/private/versions.bzl
+dart_register_toolchains(
+    name = "dart",
+    dart_version = "2.18.3",
+)
