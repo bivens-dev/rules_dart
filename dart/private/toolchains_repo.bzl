@@ -38,6 +38,12 @@ PLATFORMS = {
             "@platforms//cpu:x86_64",
         ],
     ),
+    "linux-ia32": struct(
+        compatible_with = [
+            "@platforms//os:linux",
+            "@platforms//cpu:x86_32",
+        ],
+    ),
     "linux-arm": struct(
         compatible_with = [
             "@platforms//os:linux",
@@ -54,6 +60,12 @@ PLATFORMS = {
         compatible_with = [
             "@platforms//os:windows",
             "@platforms//cpu:x86_64",
+        ],
+    ),
+    "windows-ia32": struct(
+        compatible_with = [
+            "@platforms//os:windows",
+            "@platforms//cpu:x86_32",
         ],
     ),
 }
