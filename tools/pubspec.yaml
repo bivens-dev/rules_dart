@@ -3,5 +3,5 @@ description: A tool to generate the relevant hash values for a given Dark releas
 version: 0.0.1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: '<4.0.0'
 
