@@ -54,7 +54,7 @@ def rules_dart_internal_deps():
 
     http_archive(
         name = "aspect_bazel_lib",
-        sha256 = "50c76103974f24b24e728d53b7b70e2010f6d9f734e9318f1bb53fa83161fb7b",
-        strip_prefix = "bazel-lib-1.35.0",
-        url = "https://github.com/aspect-build/bazel-lib/archive/refs/tags/v1.35.0.tar.gz",
+        sha256 = "76febb5cf3c81f00ae1f0a197bd2d0cfecab4018b2a366eb3ea1fbf52dfc9b2f",
+        strip_prefix = "bazel-lib-1.36.0",
+        url = "https://github.com/aspect-build/bazel-lib/archive/refs/tags/v1.36.0.tar.gz",
     )
