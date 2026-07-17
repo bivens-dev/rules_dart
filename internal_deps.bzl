@@ -35,11 +35,11 @@ def rules_dart_internal_deps():
     # see https://github.com/bazelbuild/bazel-skylib/issues/250
     http_archive(
         name = "bazel_skylib",
-        sha256 = "3b620033ca48fcd6f5ef2ac85e0f6ec5639605fa2f627968490e52fc91a9932f",
-        strip_prefix = "bazel-skylib-1.3.0",
+        sha256 = "db8d42f8d70df13733ffc221230272058b71c504b2203819de470d59657c35df",
+        strip_prefix = "bazel-skylib-1.9.2",
         urls = [
-            "https://mirror.bazel.build/github.com/bazelbuild/bazel-skylib/archive/1.3.0.tar.gz",
-            "https://github.com/bazelbuild/bazel-skylib/archive/refs/tags/1.3.0.tar.gz",
+            "https://mirror.bazel.build/github.com/bazelbuild/bazel-skylib/archive/1.9.2.tar.gz",
+            "https://github.com/bazelbuild/bazel-skylib/archive/refs/tags/1.9.2.tar.gz",
         ],
     )
 
